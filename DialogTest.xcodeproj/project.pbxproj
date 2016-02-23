@@ -12,6 +12,8 @@
 		9B92DBFC1C7C879100CB9A26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B92DBFA1C7C879100CB9A26 /* Main.storyboard */; };
 		9B92DBFE1C7C879100CB9A26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B92DBFD1C7C879100CB9A26 /* Assets.xcassets */; };
 		9B92DC011C7C879100CB9A26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B92DBFF1C7C879100CB9A26 /* LaunchScreen.storyboard */; };
+		9B92DC091C7C884E00CB9A26 /* DialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B92DC081C7C884E00CB9A26 /* DialogViewController.swift */; };
+		9B92DC0B1C7C887C00CB9A26 /* DialogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B92DC0A1C7C887C00CB9A26 /* DialogViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9B92DBFD1C7C879100CB9A26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B92DC001C7C879100CB9A26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B92DC021C7C879100CB9A26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B92DC081C7C884E00CB9A26 /* DialogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogViewController.swift; sourceTree = "<group>"; };
+		9B92DC0A1C7C887C00CB9A26 /* DialogViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DialogViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				9B92DBFD1C7C879100CB9A26 /* Assets.xcassets */,
 				9B92DBFF1C7C879100CB9A26 /* LaunchScreen.storyboard */,
 				9B92DC021C7C879100CB9A26 /* Info.plist */,
+				9B92DC081C7C884E00CB9A26 /* DialogViewController.swift */,
+				9B92DC0A1C7C887C00CB9A26 /* DialogViewController.xib */,
 			);
 			path = DialogTest;
 			sourceTree = "<group>";
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B92DC0B1C7C887C00CB9A26 /* DialogViewController.xib in Resources */,
 				9B92DC011C7C879100CB9A26 /* LaunchScreen.storyboard in Resources */,
 				9B92DBFE1C7C879100CB9A26 /* Assets.xcassets in Resources */,
 				9B92DBFC1C7C879100CB9A26 /* Main.storyboard in Resources */,
@@ -137,6 +144,7 @@
 			files = (
 				9B92DBF91C7C879100CB9A26 /* ViewController.swift in Sources */,
 				9B92DBF71C7C879100CB9A26 /* AppDelegate.swift in Sources */,
+				9B92DC091C7C884E00CB9A26 /* DialogViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

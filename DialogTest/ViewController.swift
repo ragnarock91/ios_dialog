@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var dialogViewController:DialogViewController!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +22,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func showDialog(sender: AnyObject) {
+        let bundle = NSBundle(forClass: DialogViewController.self)
+        self.dialogViewController = DialogViewController(nibName: "DialogViewController", bundle: bundle)
+        self.dialogViewController.showDialog(self.view)
+    }
 
 }
 
